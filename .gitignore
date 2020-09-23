@@ -37,3 +37,7 @@ crash.log
 # I should not be allowe to weird this power -GH
 # .terraformrc
 # terraform.rc
+
+**/.DS_Store
+**/Thumbs.db
+**/[Dd]esktop.ini
