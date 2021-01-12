@@ -1,11 +1,11 @@
 terraform {
   backend "s3" {
     encrypt = "true"
-    bucket  = "ChangeMe"
     # Change to your Bucket 
+    bucket = "ChangeMe"
     key    = "terraform/states/vpc.tfstate"
     region = "us-west-2"
-    # Change to your dynamo-db table 
+    # Change to your dynamo-db table
     dynamodb_table = "ChangeMe"
   }
   required_providers {
